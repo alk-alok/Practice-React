@@ -7,7 +7,11 @@ function App() {
 
   function IncreaseHandle(){
     if(value<300)
-    setValue(() => value+1);
+    setValue((prevValue) => prevValue+1);
+    setValue((prevValue) => prevValue+1);
+    setValue((prevValue) => prevValue+1);
+    setValue((prevValue) => prevValue+1);
+    setValue((prevValue) => prevValue+1);
 
   }
   function DecreaseHandle(){
